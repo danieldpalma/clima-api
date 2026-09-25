@@ -38,3 +38,5 @@ bin/
 *.jar
 *.exe
 target/
+
+!lib/*.jar
