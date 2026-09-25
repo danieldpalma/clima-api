@@ -1,4 +1,4 @@
-# 🌤️ Weather CLI
+# 🌤️ Clima API CLI
 
 Uma aplicação de linha de comando (CLI) simples e eficiente em Java 21 para consulta de informações meteorológicas em tempo real.
 
