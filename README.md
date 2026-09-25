@@ -2,6 +2,10 @@
 
 Uma aplicação de linha de comando (CLI) simples e eficiente em Java 21 para consulta de informações meteorológicas em tempo real.
 
+
+![Demonstração da aplicação](.github/assets/print-api.png)
+
+
 ![Java](https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=openjdk)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
