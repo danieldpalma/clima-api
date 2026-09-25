@@ -61,7 +61,7 @@ public class Main {
         // Dados adicionais
         String condicaoTempo = infoMeteorologicas.getJSONObject("condition").getString("text");
         int umidade = infoMeteorologicas.getInt("humidity");
-        float valocidadeVento = infoMeteorologicas.getFloat("wind_kph");
+        float velocidadeVento = infoMeteorologicas.getFloat("wind_kph");
         float pressaoAtmosferica = infoMeteorologicas.getFloat("pressure_mb");
         float sensacaoTermica = infoMeteorologicas.getFloat("feelslike_c");
         float temperaturaAtual = infoMeteorologicas.getFloat("temp_c");
@@ -69,13 +69,13 @@ public class Main {
         // Data e hora retornada da API
         String dataHoraString = infoMeteorologicas.getString("last_updated");
 
-        System.out.println("Informações meteorologicas para " + cidade + ", " + pais);
+        System.out.println("Informações meteorológicas para " + cidade + ", " + pais);
         System.out.println("Data e Hora: " + dataHoraString);
-        System.out.println("Temperatura Autal: " + temperaturaAtual + "°C");
-        System.out.println("Sensação termica: " + sensacaoTermica + "°C");
+        System.out.println("Temperatura Atual: " + temperaturaAtual + "°C");
+        System.out.println("Sensação térmica: " + sensacaoTermica + "°C");
         System.out.println("Condição do Tempo: " + condicaoTempo);
         System.out.println("Umidade: " + umidade + "%");
-        System.out.println("Valocidade do Vento: " + valocidadeVento + " km/h");
-        System.out.println("Pressao Atmosférica: " + pressaoAtmosferica + " mb");
+        System.out.println("Velocidade do Vento: " + velocidadeVento + " km/h");
+        System.out.println("Pressão Atmosférica: " + pressaoAtmosferica + " mb");
     }
 }
